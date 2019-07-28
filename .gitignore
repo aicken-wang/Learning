@@ -1,0 +1,14 @@
+.DS_Store
+pkg/windows_amd64
+pkg/github.com
+src/github.com
+src/golang.org
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+log.txt
+*.vscode
