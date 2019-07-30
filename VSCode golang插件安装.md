@@ -1,6 +1,10 @@
 ## VSCode golang插件安装
 在 GOPATH 目录下的src目录下新建 golang.org 再进入golang.org目录新建x 目录
-cd GOPATH/src/golang.org/x
+```shell
+mkdir -p $GOPATH/src/golang.org/x
+cd $GOPATH/src/golang.org/x
+
+```
 使用git 下载插件源码 
 ```git
 git clone https://github.com/golang/tools.git tools
